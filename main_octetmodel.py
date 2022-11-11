@@ -175,10 +175,11 @@ open_filename_octetdata.close()
 
 # load and assign relevant variable names 
 x = loaded_list[0]             # Force data
-x_12 = loaded_list[1]          # Descriptors of lattice. 
+x_12 = loaded_list[1]          # Descriptors of lattice. Column headers: [Unit Cell Identifier,voxel_bend,voxel_stretch,voxel_vert, x_bend,x_stretch,x_vert,x_joint,WADL ID Number]
 x_12pca = loaded_list[2]       # Descriptors of lattice + Principal components
 x_12pca_acc = loaded_list[3]   # Lattice with acceleration information
 x_12_acc_mean = loaded_list[4] # Lattice with mean acceleration information
+x_12pca_acc_ITID = loaded_list[5] # Lattice with mean acceleration information. Column headers: [Impact Testing Number,Unit Cell Identifier,voxel_bend,voxel_stretch,voxel_vert,x_12pca]
 
 # number of features for final prediction. This number is based on X. 
 num_mdl_feat = 6
