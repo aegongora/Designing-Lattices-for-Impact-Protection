@@ -12,3 +12,5 @@ The octet-octahedral model is generated using force-displacement and acceleratio
 In the load pickle files, column header "WADL ID Number" corresponds to "WADL Test Number" in the shared dataset available at: https://www.kablab.org/lattice-impact.
 
 Additionally, the column header "Impact Testing Number" corresponds to the "Impact Test Number" in the shared dataset available at: https://www.kablab.org/lattice-impact.
+
+The mean performance of the quality control sample is used in the dataset loaded from the pickle file. For more information, please see the manuscript and supplemental information (Figure S7). 
