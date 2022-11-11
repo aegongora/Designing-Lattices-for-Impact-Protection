@@ -9,6 +9,6 @@ The octet model is generated using force-displacement and acceleration measureme
 The octet-octahedral model is generated using force-displacement and acceleration measurements from both the octet and octahedral datasets. The relevant measurements are stored in the pickle file "Data_OctetOctahedralModel.pkl". The code to generate the model is located in "main_octetoctamodel.py". The relevant files for predicting the performance of the alternative designs are also in the pickle file "Data_OctetOctahedralModel.pkl". 
 
 ## General Notes
-In the load pickle files, column header "WADL ID Number" corresponds to "WADL Test Number" in the shared dataset available at: https://www.kablab.org/lattice-impact. The column header. 
+In the load pickle files, column header "WADL ID Number" corresponds to "WADL Test Number" in the shared dataset available at: https://www.kablab.org/lattice-impact.
 
-Additionally, the column header "Impact Testing Number" corresponds to the "Impact Test Number" in the shared dataset available at: https://www.kablab.org/lattice-impact. The column header. 
+Additionally, the column header "Impact Testing Number" corresponds to the "Impact Test Number" in the shared dataset available at: https://www.kablab.org/lattice-impact.
